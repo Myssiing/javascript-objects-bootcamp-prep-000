@@ -6,7 +6,7 @@ var meals = { breakfast: "oatmeal" };
 var meals = new Object({ breakfast: "oatmeal" })
 */
 
-var playlist = new Object();
+var playlist = new Object({artistName: 'songTitle'})
 
 function updatePlaylist(playlist, artistName, 'songTitle') {
 return Object.assign({}, obj, { [key]: value })
