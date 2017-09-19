@@ -8,7 +8,9 @@ var meals = new Object({ breakfast: "oatmeal" })
 
 var playlist = new Object();
 
-function destructivelyUpdateObjectWithKeyAndValue(playlist, artistName, 'songTitle') {
+function updatePlaylist(playlist, artistName, 'songTitle') {
   playlist[artistName] = 'songTitle'
   return playlist
 }
+
+//destructivelyUpdateObjectWithKeyAndValue(obj, key, value)
