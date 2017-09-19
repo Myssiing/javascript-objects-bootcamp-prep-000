@@ -9,7 +9,7 @@ var meals = new Object({ breakfast: "oatmeal" })
 var playlist = new Object();
 
 function updatePlaylist(playlist, artistName, 'songTitle') {
-  playlist[artistName] = 'songTitle'
+return Object.assign({}, obj, { [key]: value })
   return playlist
 }
 
