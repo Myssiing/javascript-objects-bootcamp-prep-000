@@ -1,8 +1,12 @@
-var meals = {};
+/*var meals = {};
 
 var meals = new Object();
 
 var meals = { breakfast: "oatmeal" };
 var meals = new Object({ breakfast: "oatmeal" })
+*/
 
-console.log()
+var playlist = {};
+
+var meals = {artistName: 'songTitle'};
+
