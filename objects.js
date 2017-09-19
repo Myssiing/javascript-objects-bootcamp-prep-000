@@ -9,4 +9,3 @@ var meals = new Object({ breakfast: "oatmeal" })
 var playlist = {};
 
 var meals = {artistName: 'songTitle'};
-
