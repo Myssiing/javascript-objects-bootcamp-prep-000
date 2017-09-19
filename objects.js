@@ -12,4 +12,3 @@ function destructivelyUpdateObjectWithKeyAndValue(playlist, artistName, 'songTit
   playlist[artistName] = 'songTitle'
   return playlist
 }
-
