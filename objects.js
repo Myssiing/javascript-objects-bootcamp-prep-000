@@ -13,4 +13,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist
 }
 
-//destructivelyUpdateObjectWithKeyAndValue(obj, key, value)
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist[artistName]
+  return playlist
+}
