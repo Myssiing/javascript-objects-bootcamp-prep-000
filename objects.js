@@ -8,4 +8,4 @@ var meals = new Object({ breakfast: "oatmeal" })
 
 var playlist = new Object();
 
-var playlist = { artistName: 'songTitle' };
+playlist.artistname = 'songTitle'
