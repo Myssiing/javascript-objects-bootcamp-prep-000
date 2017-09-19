@@ -6,6 +6,7 @@ var meals = { breakfast: "oatmeal" };
 var meals = new Object({ breakfast: "oatmeal" })
 */
 
-var playlist = {};
+var playlist = new Object();
 
-var meals = {artistName: 'songTitle'};
+var playlist = {artistName: 'songTitle'};
+
